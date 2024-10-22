@@ -1,0 +1,51 @@
+[
+    {
+      "title": "SSL AIS Menu",
+      "properties": [
+        {
+          "name": "id",
+          "label": "Id",
+          "type": "hidden"
+        },
+        {
+          "name": "customId",
+          "label": "Custom ID",
+          "type": "textfield"
+        },
+        {
+          "name": "label",
+          "label": "Label",
+          "type": "textfield",
+          "required": "true"
+        },
+        {
+          "name": "googleAPIURL",
+          "label": "Google API URL",
+          "type": "textfield",
+          "value": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCXPU96rDH-uFRWjaPvUGP13r5ZrnkuYDI",
+          "required": "true"
+        },
+        {
+          "name": "boundingBoxes",
+          "label": "Bounding Boxes",
+          "description": "List of bounding boxes",
+          "type": "grid",
+          "required": "true",
+          "columns": [
+            {
+              "key": "lat",
+              "label": "Latitude",
+              "required": "true"
+            },
+            {
+              "key": "long",
+              "label": "Longitude",
+              "required": "true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
+  
